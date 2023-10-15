@@ -22,8 +22,47 @@ header {
     padding: 5px;
     margin: 0 5px;
   }
-}
-.menu-button {
-  width: 24px;
-  height: 24px;
+  .header-right {
+    height: 100%;
+    flex-grow: 1;
+    .header-right-box {
+      height: 100%;
+      float: right;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      .gmail-link {
+        padding-left: 15px;
+        line-height: 24px;
+        font: 13px/27px Roboto, Arial, sans-serif;
+        color: rgba(0, 0, 0, 0.87);
+      }
+      .image-link {
+        padding: 0 15px;
+        line-height: 24px;
+        font: 13px/27px Roboto, Arial, sans-serif;
+      }
+      .menu-button {
+        color: rgb(95, 99, 104);
+        fill: rgb(95, 99, 104);
+        width: 24px;
+        height: 24px;
+        margin: 8px;
+      }
+      .login-button {
+        cursor: pointer;
+        line-height: 16px;
+        letter-spacing: 0.25px;
+        margin: 0 8px;
+        width: 96px;
+        color: #fff;
+        background: #1a73e8;
+        border: 1px solid transparent;
+        padding: 9px 23px;
+        text-align: center;
+        vertical-align: middle;
+        border-radius: 4px;
+      }
+    }
+  }
 }
