@@ -1,8 +1,6 @@
 @import "reset.css";
 * {
   box-sizing: border-box;
-}
-body {
   font-size: 14px;
   font-family: Apple SD Gothic Neo, arial, sans-serif;
   color: #202124;
@@ -31,11 +29,11 @@ header {
       display: flex;
       justify-content: flex-end;
       align-items: center;
+      padding-right: 4px;
       .gmail-link {
         padding-left: 15px;
         line-height: 24px;
         font: 13px/27px Roboto, Arial, sans-serif;
-        color: rgba(0, 0, 0, 0.87);
       }
       .image-link {
         padding: 0 15px;
@@ -43,11 +41,9 @@ header {
         font: 13px/27px Roboto, Arial, sans-serif;
       }
       .menu-button {
-        color: rgb(95, 99, 104);
         fill: rgb(95, 99, 104);
-        width: 24px;
+        width: 48px;
         height: 24px;
-        margin: 8px;
       }
       .login-button {
         cursor: pointer;
@@ -59,8 +55,6 @@ header {
         background: #1a73e8;
         border: 1px solid transparent;
         padding: 9px 23px;
-        text-align: center;
-        vertical-align: middle;
         border-radius: 4px;
       }
     }
