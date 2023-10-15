@@ -32,13 +32,13 @@ header {
       padding-right: 4px;
       .gmail-link {
         padding-left: 15px;
-        line-height: 24px;
         font: 13px/27px Roboto, Arial, sans-serif;
+        line-height: 24px;
       }
       .image-link {
         padding: 0 15px;
-        line-height: 24px;
         font: 13px/27px Roboto, Arial, sans-serif;
+        line-height: 24px;
       }
       .menu-button {
         fill: rgb(95, 99, 104);
