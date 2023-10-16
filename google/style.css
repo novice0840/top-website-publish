@@ -89,11 +89,24 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-  }
-}
 
-@media only screen and (max-width: 1200px) {
-  .footer-down {
-    justify-content: space-evenly;
+    .footer-down-left {
+      display: flex;
+    }
+
+    .footer-down-right {
+      display: flex;
+    }
+    & span {
+      display: block;
+      color: #70757a;
+      padding: 15px;
+    }
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .footer-down {
+      justify-content: space-evenly;
+    }
   }
 }
