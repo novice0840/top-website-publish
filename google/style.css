@@ -1,4 +1,14 @@
 @import "reset.css";
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 * {
   box-sizing: border-box;
   font-size: 14px;
@@ -58,5 +68,32 @@ header {
         border-radius: 4px;
       }
     }
+  }
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  background: #f2f2f2;
+  .footer-up {
+    font-family: Apple SD Gothic Neo, arial, sans-serif;
+    font-size: 15px;
+    color: #70757a;
+    border-bottom: 1px solid #dadce0;
+    padding: 15px 30px;
+  }
+  .footer-down {
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .footer-down {
+    justify-content: space-evenly;
   }
 }
