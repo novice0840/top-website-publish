@@ -10,6 +10,13 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  .text-logo {
+    width: 176px;
+    height: 32px;
+    background-position: 0 -304px;
+    background-image: linear-gradient(transparent, transparent),
+      url(https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-8bb90067.svg);
+  }
 }
 
 main {
