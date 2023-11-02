@@ -10,18 +10,48 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  .text-logo {
-    width: 176px;
-    height: 32px;
-    background-position: 0 -304px;
-    background-image: linear-gradient(transparent, transparent),
-      url(https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-8bb90067.svg);
+  .top-header {
+    display: flex;
+    margin-top: 55px;
+    margin-bottom: 17px;
+    width: 178px;
+    flex-direction: column;
+    align-items: center;
+    .text-logo {
+      width: 176px;
+      height: 32px;
+      background-position: 0 -304px;
+      background-image: linear-gradient(transparent, transparent),
+        url(https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-8bb90067.svg);
+    }
+    .slogan {
+      font-size: 1.5rem;
+      font-weight: 400;
+      font-family: Linux Libertine, Georgia, Times, "Source Serif Pro", serif;
+      height: 33px;
+      line-height: 3.3rem;
+    }
+  }
+  .middle-header {
+    position: relative;
+    border: 1px solid;
+    height: 32.5rem;
+    width: 54.6rem;
+    & a {
+      position: absolute;
+      width: 15.6rem;
+    }
+    & a:nth-child(1) {
+      top: 0;
+      right: 60%;
+    }
   }
 }
 
 main {
   border-top: 1px solid #c8ccd1;
   border-bottom: 1px solid #c8ccd1;
+  height: 1000px;
 }
 
 footer {
